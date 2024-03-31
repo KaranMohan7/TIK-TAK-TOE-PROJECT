@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: yellow;
+}
+.heading{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+#greeting{
+    color: red;
+    text-align: center;
+    display: none;
+}
+#draw{
+    color: red;
+    text-align: center;
+    display: none;
+}
+.boundry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  height: 70vh;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60vmin;
+    height: 60vmin;
+    gap: 1rem;
+}
+.box{
+    height: 7rem;
+    width: 7rem;
+    color: black;
+    font-size: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+#reset{
+   position: relative;
+   top: 4rem;
+   color: white;
+   font-weight: bold;
+   font-size: 16px;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+}
